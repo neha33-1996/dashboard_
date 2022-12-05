@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+.navigation{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: rgb(2, 180, 136);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.navigation ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.icon img{
+    width: 45px;
+    height: 45px;
+    padding-top: 0;
+    padding-left: 1px;
+    margin-top: 8px;
+    margin-bottom: 17px;
+}
+.navigation ul li{
+    position: relative;
+    width: 100%;
+    color: white;
+    list-style: none;
+}
+.navigation ul li:hover{
+    background: rgb(165, 221, 159);
+}
+.navigation ul li:nth-child(1):hover{
+    background: transparent;
+}
+.navigation ul li a{
+    display: flex;
+    text-decoration: none;
+    color:white;
+    position: relative;
+    width: 100%;
+}
+.navigation ul li a .icon{
+    position: relative;
+   min-width: 40px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+}
+.navigation ul li a .title{
+
+    display: block;
+    position: relative;
+    min-width: 40px;
+    height: 40px;
+    padding: 0 6px;
+    margin-top: 10px;
+}
+.main .headt{
+    margin-left: 300px;
+    color: black;
+    
+}
+.main h3{
+    padding-top: 80px;
+}
+.toggle{
+    padding-top: 30px;
+    margin-left: 300px;
+    display: flex;
+}
+.toggle .search{
+    margin-left: 250px;
+}
+#myTable{
+    margin-left: 250px;
+    margin-top: 50px;
+    font-size: 13px;
+}
+#myTable .header{
+ padding: 10px;
+ 
+ text-align: center;
+}
+td{
+   
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+   
+}
+.myContainer h3{
+    margin-left: 300px;
+    padding-top: 60px;
+}
+.myContainer .details{
+    margin-left: 270px;
+    padding-top: 30px;
+    
+}
+.myContainer3{
+    margin-left: 270px;
+    padding-top: 60px;
+    
+    
+}
+.myContainer4{
+    display: flex;
+    margin-bottom: 80px;
+    width: 200px;
+    height: 60px;
+    
+}
+.myContainer5{
+    display: flex;
+    margin-top: 80px;
+    width: 300px;
+    height: 80px;
+    
+}
+.mySpan2{
+    display: flex;
+    
+    width: 80px;
+    height: 20px;
+}
